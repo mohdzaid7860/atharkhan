@@ -8222,3 +8222,10 @@ section {
         max-width: 20%;
     }
 }
+#workspace{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#workspace .icon-box-s2.s1 .content-box, #workspace .icon-box-s2.s3 .content-box {
+  padding-left: 10px;
+}
