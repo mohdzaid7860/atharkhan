@@ -4196,7 +4196,8 @@ object {
   width: calc(100% - 60px);
   margin: auto;
   position: absolute;
-  bottom: -50px;
+  /* bottom: -50px; */
+  bottom: -134px;
   left: 50%;
   text-align: center;
   background: #262051;
@@ -4244,10 +4245,10 @@ object {
   transform: none;
   left: 0;
 }
-.projects-style-2 .projects-box:hover .portfolio-info {
+/* .projects-style-2 .projects-box:hover .portfolio-info {
   bottom: 0;
   opacity: 1;
-}
+} */
 .projects-style-2 .projects-box .projects-thumbnail {
   overflow: hidden;
 }
@@ -4323,9 +4324,9 @@ object {
   opacity: 0;
   z-index: 0;
 }
-.project-slider .projects-box:hover .portfolio-info {
+/* .project-slider .projects-box:hover .portfolio-info {
   bottom: -50px;
-}
+} */
 .project-slider .projects-box:hover .portfolio-info .btn-link {
   background: #43baff;
 }
@@ -8228,4 +8229,7 @@ section {
 }
 #workspace .icon-box-s2.s1 .content-box, #workspace .icon-box-s2.s3 .content-box {
   padding-left: 10px;
+}
+.owl-stage{
+  height: 25rem;
 }
